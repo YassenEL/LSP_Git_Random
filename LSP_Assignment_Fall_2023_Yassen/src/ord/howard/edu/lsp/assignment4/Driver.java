@@ -80,7 +80,7 @@ public class Driver {
         
         // Checking the difference function
         set1.diff(set2);
-        System.out.println("Sets after subtracting their elements: " + set1);
+        System.out.println("Sets after subtracting their elements: " + set1); // Difference of Set 1 and 2
         
         set1.clear();
         set2.clear();
@@ -96,7 +96,7 @@ public class Driver {
         set2.add(1);
         System.out.println("Set 2: "+ set2);
         set1.diff(set2);
-        System.out.println("Sets after subtracting their elements: " + set1);
+        System.out.println("Sets after subtracting their elements: " + set1); // Difference of Set 1 and 2
         
         set1.clear();
         set2.clear();
@@ -134,10 +134,10 @@ public class Driver {
         
         
         set1.intersect(set2);
-        System.out.println("The Intersection of Set 1 and 2 is: " + set1);
+        System.out.println("The Intersection of Set 1 and 2 is: " + set1); // Intersection of Set 1 and 2
         
         set2.intersect(set3);
-        System.out.println("The Intersection of Set 2 and 3 is: " + set2);
+        System.out.println("The Intersection of Set 2 and 3 is: " + set2); // Intersection of Set 1 and 2
         
         set1.add(1);
         set1.add(2);
@@ -169,9 +169,9 @@ public class Driver {
         
         
         set1.union(set2);
-        System.out.println("The Union of Set 1 and 2 is: " + set1);
+        System.out.println("The Union of Set 1 and 2 is: " + set1); // Union of Set 1 and 2
         set2.union(set3);
-        System.out.println("The Union of Set 2 and 3 is: " + set2);
+        System.out.println("The Union of Set 2 and 3 is: " + set2); // Union of Set 2 and 3
         
         set1.clear();
         set2.clear();
