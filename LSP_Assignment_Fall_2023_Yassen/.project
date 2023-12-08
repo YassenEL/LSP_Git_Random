@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/org/howard/edu/lsp/exam/document/final_fall_2023(Yassen Elshaikh).docx</name>
-			<type>1</type>
-			<location>C:/Users/elsha/Videos/final_fall_2023(Yassen Elshaikh).docx</location>
-		</link>
-	</linkedResources>
 </projectDescription>
